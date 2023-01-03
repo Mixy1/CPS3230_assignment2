@@ -1,0 +1,57 @@
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_out
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged in
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.Runner.validLogin() TO STATE::> logged_in
+[verifySystemLogic]AUTOMATON::> verifySystemLogic() STATE::>logged_in
+Logged out
+[verifySystemLogic]MOVED ON METHODCALL: boolean main.MarketAlertUmAPI.logout() TO STATE::> logged_out

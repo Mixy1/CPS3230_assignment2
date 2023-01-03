@@ -1,0 +1,26 @@
+digraph _logic_verifyAlertLogic {
+rankdir=LR;
+node [shape = circle]; invalid_key filling full empty;
+node [shape = octagon]; tooMany;
+node [shape = point]; _s_s;
+_s_s -> empty;
+filling -> empty [ label = "(1) purgeAlerts\\\\System . out . println ( \" alerts purged \" ) ; "];
+filling -> tooMany [ label = "(2) alertsReturnedByService\\n > 5 \\System . out . println ( \" TOO MANY ALERTS \" ) ; "];
+filling -> filling [ label = "(3) createAlert\\alerts < 4 \\alerts ++ ; System . out . println ( \" Filling Alerts \" ) ; "];
+filling -> full [ label = "(4) createAlert\\alerts == 4 \\alerts ++ ; System . out . println ( \" Alerts full \" ) ; "];
+filling -> invalid_key [ label = "(5) invalidId\\\\System . out . println ( \" Invalid key \" ) ; "];
+invalid_key -> empty [ label = "(1) purgeAlerts\\\\System . out . println ( \" alerts purged \" ) ; "];
+invalid_key -> filling [ label = "(2) createAlert\\alerts < 4 \\alerts ++ ; System . out . println ( \" Filling Alerts \" ) ; "];
+invalid_key -> full [ label = "(3) createAlert\\alerts == 4 \\alerts ++ ; System . out . println ( \" Alerts full \" ) ; "];
+invalid_key -> full [ label = "(4) createAlert\\alerts == 5 \\System . out . println ( \" Alerts full \" ) ; "];
+invalid_key -> invalid_key [ label = "(5) invalidId\\\\System . out . println ( \" Invalid key \" ) ; "];
+invalid_key -> tooMany [ label = "(6) alertsReturnedByService\\n > 5 \\System . out . println ( \" TOO MANY ALERTS \" ) ; "];
+empty -> filling [ label = "(1) createAlert\\\\alerts = 1 ; System . out . println ( \" Started filling Alerts \" ) ; "];
+empty -> empty [ label = "(2) purgeAlerts\\\\System . out . println ( \" No alerts to purge \" ) ; "];
+empty -> tooMany [ label = "(3) alertsReturnedByService\\n > 5 \\System . out . println ( \" TOO MANY ALERTS \" ) ; "];
+empty -> invalid_key [ label = "(4) invalidId\\\\System . out . println ( \" Invalid key \" ) ; "];
+full -> full [ label = "(1) createAlert\\alerts == 5 \\System . out . println ( \" removing old alert \" ) ; "];
+full -> empty [ label = "(2) purgeAlerts\\\\System . out . println ( \" alerts purged \" ) ; "];
+full -> invalid_key [ label = "(3) invalidId\\\\System . out . println ( \" Invalid key \" ) ; "];
+full -> tooMany [ label = "(4) alertsReturnedByService\\n > 5 \\System . out . println ( \" TOO MANY ALERTS \" ) ; "];
+}

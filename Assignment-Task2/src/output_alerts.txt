@@ -1,0 +1,125 @@
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+No alerts to purge
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+No alerts to purge
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+alerts purged
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+alerts purged
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Alerts full
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+alerts purged
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+alerts purged
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Alerts full
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+alerts purged
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.purgeAlerts() TO STATE::> empty
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>empty
+Started filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Filling Alerts
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> filling
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>filling
+Alerts full
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+removing old alert
+[verifyAlertLogic]MOVED ON METHODCALL: void main.MarketAlertUmAPI.createAlert(JsonObject) TO STATE::> full
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>full
+TOO MANY ALERTS
+[verifyAlertLogic]MOVED ON METHODCALL: void main.Runner.alertsReturnedByService(int) TO STATE::> !!!SYSTEM REACHED BAD STATE!!! tooMany 
+aspects._asp_alerts0.ajc$before$aspects__asp_alerts0$4$298ab78a(_asp_alerts0.aj:40)
+main.Runner.run(Runner.java:77)
+main.Runner.main(Runner.java:128) 
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany
+[verifyAlertLogic]AUTOMATON::> verifyAlertLogic() STATE::>tooMany

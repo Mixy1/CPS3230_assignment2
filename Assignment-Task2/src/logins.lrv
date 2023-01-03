@@ -1,0 +1,36 @@
+GLOBAL {
+	
+	VARIABLES {
+		boolean logged_in = false;
+	}
+	
+	EVENTS{
+		validLogin() = {*.validLogin()}
+		logout() = {*.logout()}
+		invalidId() = {*.invalidId()}
+	}
+	
+	PROPERTY verifySystemLogic{
+		STATES{
+			NORMAL{
+				logged_in
+				invalid_key
+			}
+			STARTING{
+				logged_out
+			}
+		}
+		
+		TRANSITIONS{
+			logged_out -> logged_out [logout\\logged_in = false; System.out.println("Logged out");]
+			logged_out -> logged_in [validLogin\\logged_in = true; System.out.println("Logged in");]
+			logged_out -> invalid_key [invalidId\\logged_in = false; System.out.println("Invalid key");]
+			logged_in -> logged_out [logout\\logged_in = false; System.out.println("Logged out");]
+			logged_in -> logged_in [validLogin\\logged_in = true; System.out.println("Logged in");]
+			logged_in -> invalid_key [invalidId\\logged_in = false; System.out.println("Invalid key");]
+			invalid_key -> logged_out [logout\\logged_in = false; System.out.println("Logged out");]
+			invalid_key -> logged_in [validLogin\\logged_in = true; System.out.println("Logged in");]
+			invalid_key -> invalid_key [invalidId\\logged_in = false; System.out.println("Invalid key");]
+		}
+	}
+}

@@ -1,0 +1,51 @@
+GLOBAL {
+	
+	VARIABLES {
+		int alerts = 0;
+	}
+	
+	EVENTS{
+		createAlert() = {*.createAlert()}
+		purgeAlerts() = {*.purgeAlerts()}
+		invalidId() = {*.invalidId()}
+		alertsReturnedByService(int n) = {*.alertsReturnedByService(n)}
+	}
+	
+	PROPERTY verifyAlertLogic{
+		STATES{
+			BAD {
+				tooMany
+			}
+			NORMAL{
+				invalid_key
+				filling
+				full
+			}
+			STARTING{
+				empty
+			}
+		}
+		
+		TRANSITIONS{
+			empty -> filling [createAlert\\alerts = 1; System.out.println("Started filling Alerts");]
+			empty -> empty [purgeAlerts\\System.out.println("No alerts to purge");]
+			empty -> tooMany [alertsReturnedByService\n > 5\ System.out.println("TOO MANY ALERTS");]
+			empty -> invalid_key [invalidId\\System.out.println("Invalid key");]
+			filling -> empty [purgeAlerts\\System.out.println("alerts purged");]
+			filling -> tooMany [alertsReturnedByService\n > 5\ System.out.println("TOO MANY ALERTS");]
+			filling -> filling [createAlert\alerts < 4\ alerts++; System.out.println("Filling Alerts");]
+			filling -> full [createAlert\alerts == 4\ alerts++; System.out.println("Alerts full");]
+			filling -> invalid_key [invalidId\\System.out.println("Invalid key");]
+			full -> full [createAlert\alerts == 5\ System.out.println("removing old alert");]
+			full -> empty [purgeAlerts\\System.out.println("alerts purged");]
+			full -> invalid_key [invalidId\\System.out.println("Invalid key");]
+			full -> tooMany [alertsReturnedByService\n > 5\ System.out.println("TOO MANY ALERTS");]
+			invalid_key -> empty [purgeAlerts\\System.out.println("alerts purged");]
+			invalid_key -> filling [createAlert\alerts < 4\alerts++; System.out.println("Filling Alerts");]
+			invalid_key -> full [createAlert\alerts == 4\alerts++; System.out.println("Alerts full");]
+			invalid_key -> full [createAlert\alerts == 5\System.out.println("Alerts full");]
+			invalid_key -> invalid_key [invalidId\\System.out.println("Invalid key");]
+			invalid_key -> tooMany [alertsReturnedByService\n > 5\ System.out.println("TOO MANY ALERTS");]
+		}
+	}
+}

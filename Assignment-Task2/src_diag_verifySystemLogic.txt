@@ -1,0 +1,15 @@
+digraph _logic_verifySystemLogic {
+rankdir=LR;
+node [shape = circle]; logged_in invalid_key logged_out;
+node [shape = point]; _s_s;
+_s_s -> logged_out;
+invalid_key -> logged_out [ label = "(1) logout\\\\logged_in = false ; System . out . println ( \" Logged out \" ) ; "];
+invalid_key -> logged_in [ label = "(2) validLogin\\\\logged_in = true ; System . out . println ( \" Logged in \" ) ; "];
+invalid_key -> invalid_key [ label = "(3) invalidId\\\\logged_in = false ; System . out . println ( \" Invalid key \" ) ; "];
+logged_in -> logged_out [ label = "(1) logout\\\\logged_in = false ; System . out . println ( \" Logged out \" ) ; "];
+logged_in -> logged_in [ label = "(2) validLogin\\\\logged_in = true ; System . out . println ( \" Logged in \" ) ; "];
+logged_in -> invalid_key [ label = "(3) invalidId\\\\logged_in = false ; System . out . println ( \" Invalid key \" ) ; "];
+logged_out -> logged_out [ label = "(1) logout\\\\logged_in = false ; System . out . println ( \" Logged out \" ) ; "];
+logged_out -> logged_in [ label = "(2) validLogin\\\\logged_in = true ; System . out . println ( \" Logged in \" ) ; "];
+logged_out -> invalid_key [ label = "(3) invalidId\\\\logged_in = false ; System . out . println ( \" Invalid key \" ) ; "];
+}
